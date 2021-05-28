@@ -1,0 +1,65 @@
+.Main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+
+.leftColumn{
+    height: 100%;
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rightColumn{
+    height: 100%;
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smallBox{
+    background-color: rgb(243, 241, 241);
+    height: 49%;
+    border: 1px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigBox{
+    background-color: rgb(243, 241, 241);
+    height: 99%;
+    border: 1px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plusIcon{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/plus-512.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.plusIcon:hover{
+    cursor: pointer;
+    background-color: rgb(236, 232, 232);
+}
