@@ -1,12 +1,12 @@
 import React from 'react'
 import './HomePage.css'
 
-import Header from '../../components/Header'
+import Nav from '../../components/Nav'
 
 const HomePage = () => {
     return (
         <div className="HomePage">
-            <Header />
+            <Nav />
             Home Page
         </div>
     )
