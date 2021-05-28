@@ -7,5 +7,5 @@ export const NavLinks = [
 export const HeaderInfo = {
     imageLink: 'https://wallpaperaccess.com/full/1758198.jpg',
     title: 'Hello World',
-    height: '400px'
+    height: '300px'
 }
